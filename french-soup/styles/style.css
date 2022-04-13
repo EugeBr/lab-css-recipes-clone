@@ -2,8 +2,53 @@
 h1, body, html, main {
   margin: 0;
 }
-/*Import the font and set the default size*/
+
 html {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-size: 35px
+}
+
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+}
+.soup {
+  background-image: url("../images/soup.jpg");
+  height: 1000px;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.soup > h1 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: 20%;
+    
+    top: 50%;
+    margin-top: -50px;
+}
+.recipe {
+  padding-top: 80px;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+img {
+  margin-left: 300px;
+  padding-bottom: 50px;
+}
+h2 {
+  font-size: 35px;
+  padding-top: 50px;
+}
+ul {
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.ingredients {
+  border-top:  3px solid gray;
+  border-bottom:  3px solid gray;
 }
